@@ -1,0 +1,10 @@
+---
+name: filebrowser
+services:
+  server:
+    image: robotnik/filebrowser:2.24.2-1
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        img_version: v2.24.2
